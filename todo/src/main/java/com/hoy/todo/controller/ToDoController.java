@@ -55,7 +55,7 @@ public class ToDoController {
 
     //ID로 조회
     @GetMapping
-    public ResponseEntity<?> retriveToDoList(@RequestBody ToDoDTO dto) {
+    public ResponseEntity<?> retriveToDoList() {
 
         String temporaryUserId = "temporary-user";
 
